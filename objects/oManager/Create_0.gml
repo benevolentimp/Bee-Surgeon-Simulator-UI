@@ -1,4 +1,4 @@
-/// @description 
+/// @description Variables
 menuOpen = false;
 gamePause = false;
 

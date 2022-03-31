@@ -10,6 +10,4 @@ x = lerp(x, xstart + _hover * 16, 0.1);
 // If clicked AND script available
 if (_click && script >= 0) {
 	script_execute(script);
-} else if (_click) {
-	room_goto(rmGame);
 }

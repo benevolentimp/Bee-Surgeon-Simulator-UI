@@ -8,7 +8,7 @@ function onClick(){
 			return show_debug_message("Button clicked: " + text);
 		case "Quit":
 			
-			room_restart()
+			room_goto_previous()
 			global.playerScore = 0;
 			global.playerLives = 3;
 	}
